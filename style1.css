@@ -395,7 +395,7 @@
                 }
                 
                 .divider {
-                    margin: 50px 0px 50px 100px;
+                    margin: 50px 0px 50px 300px;
                 }
                 
                 .section-4 .content h2 {
@@ -757,6 +757,7 @@
                     color: #0e3051;
                     background-color: white;
                     margin: 20px;
+                    border: none;
                     /* display: grid; */
                 }
                 
@@ -770,3 +771,99 @@
                     font-family: 'Gotham Knights', sans-serif;
                     padding-bottom: 5px;
                 }
+                .section-7 .pict ol{
+                    list-style: none;
+                }
+
+                .section-8 h1{
+                    color: #04192e;
+                    text-align: center;
+                    font-family: 'Gotham Knights', sans-serif;
+
+                }
+
+                .section-8 .flex-pic ol li img{
+                    width: 378px;
+                    height: 379px;
+                    border-radius: 10px;
+                }
+
+                .section-8 .flex-pic ol{
+                    display: flex;
+                    justify-content: space-evenly;
+                    list-style: none;
+                    margin: 50px;
+                }
+                .section-8 .flex-pic ol li{
+                    position: relative;
+                }
+                .section-8 .flex-pic ol li i{
+                    position: absolute;
+                    top: 12px;
+                    right: 12px;
+                    background-color: white;
+                    padding: 15px;
+                    border-radius: 5px;
+                }
+            .section-8 .explore-all{
+                /* text-align: center; */
+                background-color: yellow;
+                padding: 10px;
+             width: 200px;
+             border-radius: 8px;
+              margin: 40px 0px 0px 850px;
+              cursor: pointer;
+                
+            }
+.section-8 .explore-all h3{
+    text-align: center;
+    font-family: 'Gotham Knights', sans-serif;
+    color: #04192e;
+
+
+}
+.section-9{
+    background: url(https://s7ap1.scene7.com/is/image/adityabirlafashion/as-image-bg_2x) no-repeat;
+    height: 439px;
+    /* width: 98vw; */
+    margin: 30px 0px 0px;
+    padding: 0;
+    background-size: cover;
+    position: relative;
+}
+.section-9 .signup{
+    position: absolute;
+    background-color: yellow;
+    width: 564px;
+    height: 334px;
+    border-radius: 10px;
+    right: 80px;
+    top: 50px;
+}
+.section-9 .signup .logo-name ol{
+    display: flex;
+    justify-content: center;
+}
+.section-9 .signup ol{
+    list-style: none;
+}
+
+.signup ol li p{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Gotham Knights', sans-serif;
+    color: #04192e;
+    font-weight: bolder;
+    top: 80px;
+    left: 130px;
+}
+
+.signup ol li img{
+    width: 50px;
+    height: 52px;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+
+
+}

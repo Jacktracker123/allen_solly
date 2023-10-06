@@ -1,555 +1,557 @@
-                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-                @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@100&display=swap');
-                @import url('https://fonts.cdnfonts.com/css/gotham-knights');
-                * {
-                    margin: 0px;
-                    padding: 0px;
-                    box-sizing: border-box;
-                }
-                
-                header {
-                    position: relative;
-                    background-color: rgb(55, 53, 53);
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                }
-                
-                .start li img {
-                    height: 50px;
-                    width: 52px;
-                    position: absolute;
-                    top: 0px;
-                }
-                
-                .start .brand {
-                    margin-left: 80px;
-                }
-                
-                .start .brand select {
-                    color: white;
-                    background: transparent;
-                    border: none;
-                }
-                
-                .start li label {
-                    color: white;
-                    font-family: 'Roboto', sans-serif;
-                    font-weight: bolder;
-                    text-transform: uppercase;
-                }
-                
-                .start {
-                    position: absolute;
-                    left: 0;
-                    top: 8px;
-                }
-                
-                .end {
-                    margin-left: 870px;
-                }
-                
-                .start ol {
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                
-                .end ol {
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                
-                .end ol li a {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: white;
-                    font-family: 'Roboto', sans-serif;
-                    font-weight: bolder;
-                    font-size: 15px;
-                }
-                
-                .end ol li {
-                    margin: 20px 0px 20px 0px;
-                }
-                
-                .start ol li {
-                    margin: 20px;
-                }
-                
-                .links i {
-                    font-size: 22px;
-                    color: white;
-                }
-                
-                .linkss i {
-                    padding-right: 18px;
-                }
-                
-                .end ol .link1 {
-                    border-right: 2px solid grey;
-                    padding-right: 17px;
-                }
-                
-                .end ol .link2 {
-                    border-right: 2px solid grey;
-                    padding: 0px 17px 0px 17px;
-                }
-                
-                .end ol .link3 {
-                    border-right: 2px solid grey;
-                    padding: 0px 17px 0px 17px;
-                }
-                
-                .end ol .link4 {
-                    border-right: 2px solid grey;
-                    padding: 0px 17px 0px 17px;
-                }
-                
-                .end ol .link5 {
-                    padding-left: 17px;
-                }
-                
-                .links:hover {
-                    color: gold;
-                }
-                
-                .middle ol li a {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #0e3051;
-                    font-family: 'Cabin', sans-serif;
-                    font-size: 14px;
-                }
-                
-                .middle ol .link7 a {
-                    color: red;
-                }
-                
-                .logo img {
-                    width: 148px;
-                    height: 58px;
-                }
-                
-                .search input {
-                    padding: 0px 10px 10px 40px;
-                    border-bottom: 1px solid #0e3051;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                }
-                
-                .search img {
-                    position: absolute;
-                    width: 20px;
-                    height: 20px;
-                    bottom: 8px;
-                    left: 6px;
-                }
-                
-                .search {
-                    position: relative;
-                }
-                
-                .truck ol li img {
-                    height: 60px;
-                    width: 60px;
-                }
-                
-                .truck {
-                    position: relative;
-                    right: 0;
-                }
-                
-                .truck ol {
-                    /* display: flex; */
-                }
-                
-                .header-2 {
-                    top: 0;
-                    position: sticky;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                    height: 95px;
-                    z-index: 100;
-                    background-color: white;
-                    /* background-color: aqua; */
-                    /* box-shadow: 0 0 6px 3px black; */
-                }
-                
-                .header-2 .truck {
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                }
-                
-                .header-2 .logo {
-                    position: absolute;
-                    left: 100px;
-                    top: 15px;
-                }
-                
-                .middle ol {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 25px;
-                    /* margin-right: 100px; */
-                }
-                
-                .middle ol li {
-                    margin: 10px;
-                }
-                
-                .header-2 .middle ol {
-                    position: absolute;
-                    top: 0;
-                    left: 440px;
-                    /* right: 0; */
-                }
-                
-                .header-2 .search {
-                    position: absolute;
-                    top: 25px;
-                    /* left: 0; */
-                    right: 0;
-                    left: 1055px;
-                }
-                
-                .truck ol {
-                    display: flex;
-                    flex: wrap;
-                }
-                
-                .truck ol li {
-                    margin: 5px;
-                }
-                
-                .truck ol {
-                    background-color: gold;
-                    border-radius: 60px;
-                    padding-left: 14px;
-                    padding-right: 50px;
-                    margin: 15px;
-                    /* margin-left: 40px; */
-                }
-                
-                .truck {
-                    position: relative;
-                    cursor: pointer;
-                    /* left: 320px; */
-                }
-                
-                .truck ol li i {
-                    position: absolute;
-                    top: 27px;
-                }
-                
-                .truck ol .express {
-                    /* position: absolute; */
-                    padding-left: 20px;
-                    font-family: 'Cabin', sans-serif;
-                    color: #0e3051;
-                }
-                
-                .truck ol li h6 {
-                    color: grey;
-                }
-                /* .header-2 .truck ol {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.cdnfonts.com/css/gotham-knights');
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    header {
+        position: relative;
+        background-color: rgb(55, 53, 53);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .start li img {
+        height: 50px;
+        width: 52px;
+        position: absolute;
+        top: 0px;
+    }
+    
+    .start .brand {
+        margin-left: 80px;
+    }
+    
+    .start .brand select {
+        color: white;
+        background: transparent;
+        border: none;
+    }
+    
+    .start li label {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    .start {
+        position: absolute;
+        left: 0;
+        top: 8px;
+    }
+    
+    .end {
+        margin-left: 870px;
+    }
+    
+    .start ol {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .end ol {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .end ol li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    
+    .end ol li {
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .start ol li {
+        margin: 20px;
+    }
+    
+    .links i {
+        font-size: 22px;
+        color: white;
+    }
+    
+    .linkss i {
+        padding-right: 18px;
+    }
+    
+    .end ol .link1 {
+        border-right: 2px solid grey;
+        padding-right: 17px;
+    }
+    
+    .end ol .link2 {
+        border-right: 2px solid grey;
+        padding: 0px 17px 0px 17px;
+    }
+    
+    .end ol .link3 {
+        border-right: 2px solid grey;
+        padding: 0px 17px 0px 17px;
+    }
+    
+    .end ol .link4 {
+        border-right: 2px solid grey;
+        padding: 0px 17px 0px 17px;
+    }
+    
+    .end ol .link5 {
+        padding-left: 17px;
+    }
+    
+    .links:hover {
+        color: gold;
+    }
+    
+    .middle ol li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #0e3051;
+        font-family: 'Cabin', sans-serif;
+        font-size: 14px;
+    }
+    
+    .middle ol .link7 a {
+        color: red;
+    }
+    
+    .logo img {
+        width: 148px;
+        height: 58px;
+    }
+    
+    .search input {
+        padding: 0px 10px 10px 40px;
+        border-bottom: 1px solid #0e3051;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    
+    .search img {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        bottom: 8px;
+        left: 6px;
+    }
+    
+    .search {
+        position: relative;
+    }
+    
+    .truck ol li img {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .truck {
+        position: relative;
+        right: 0;
+    }
+    
+    .truck ol {
+        /* display: flex; */
+    }
+    
+    .header-2 {
+        top: 0;
+        position: sticky;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 95px;
+        z-index: 100;
+        background-color: white;
+        /* background-color: aqua; */
+        /* box-shadow: 0 0 6px 3px black; */
+    }
+    
+    .header-2 .truck {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .header-2 .logo {
+        position: absolute;
+        left: 100px;
+        top: 15px;
+    }
+    
+    .middle ol {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        /* margin-right: 100px; */
+    }
+    
+    .middle ol li {
+        margin: 10px;
+    }
+    
+    .header-2 .middle ol {
+        position: absolute;
+        top: 0;
+        left: 440px;
+        /* right: 0; */
+    }
+    
+    .header-2 .search {
+        position: absolute;
+        top: 25px;
+        /* left: 0; */
+        right: 0;
+        left: 1055px;
+    }
+    
+    .truck ol {
+        display: flex;
+        flex: wrap;
+    }
+    
+    .truck ol li {
+        margin: 5px;
+    }
+    
+    .truck ol {
+        background-color: gold;
+        border-radius: 60px;
+        padding-left: 14px;
+        padding-right: 50px;
+        margin: 15px;
+        /* margin-left: 40px; */
+    }
+    
+    .truck {
+        position: relative;
+        cursor: pointer;
+        /* left: 320px; */
+    }
+    
+    .truck ol li i {
+        position: absolute;
+        top: 27px;
+    }
+    
+    .truck ol .express {
+        /* position: absolute; */
+        padding-left: 20px;
+        font-family: 'Cabin', sans-serif;
+        color: #0e3051;
+    }
+    
+    .truck ol li h6 {
+        color: grey;
+    }
+    /* .header-2 .truck ol {
                 position: absolute;
                 right: 0;
                 left: 30px;
             } */
-                
-                .header-2 .truck {
-                    position: absolute;
-                    top: 5px;
-                    /* left: 120px; */
-                    right: 0;
-                }
-                
-                .middle ol li a:hover {
-                    font-weight: bolder;
-                    padding-bottom: 5px;
-                    border-bottom: 1px solid red;
-                }
-                /* .banner {
+    
+    .header-2 .truck {
+        position: absolute;
+        top: 5px;
+        /* left: 120px; */
+        right: 0;
+    }
+    
+    .middle ol li a:hover {
+        font-weight: bolder;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+    }
+    /* .banner {
                 top: 0;
                 margin-top: 50px;
             } */
-                
-                .banner img {
-                    width: 100vw;
-                    z-index: -1;
-                }
-                
-                .middle ol {
-                    list-style: none;
-                }
-                
-                .truck ol {
-                    list-style: none;
-                }
-                
-                .banner {
-                    margin: 0;
-                    padding: 0;
-                }
-                
-                .pic ol {
-                    display: flex;
-                    list-style: none;
-                    justify-content: space-evenly;
-                }
-                
-                .pic ol li p {
-                    text-align: center;
-                    text-transform: uppercase;
-                    font-family: 'Gotham Knights', sans-serif;
-                    font-size: 18px;
-                    line-height: 2;
-                    color: #0e3051;
-                    font-weight: bolder;
-                }
-                
-                .pic {
-                    margin-top: 30px;
-                }
-                
-                .section-3 .middle ol .img-1 img {
-                    height: 145px;
-                    width: 145px;
-                }
-                
-                .section-3 .middle ol .img-2 img {
-                    height: 207px;
-                    width: 414px;
-                }
-                
-                .section-3 {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: rgb(249, 231, 159);
-                    margin-top: 30px;
-                }
-                
-                .section-3 .first ol {
-                    list-style: none;
-                }
-                
-                .section-3 .first ol li h2 {
-                    color: #0e3051;
-                    font-family: 'Gotham Knights', sans-serif;
-                    font-size: 28px;
-                    width: 490px;
-                    margin-top: 24px;
-                    margin-bottom: 3px;
-                }
-                
-                .section-3 .first ol .flat {
-                    font-size: 14px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    line-height: 3;
-                }
-                
-                .section-3 .middle ol li p {
-                    font-size: 10px;
-                    text-align: center;
-                }
-                
-                .section-3 .first ol .next {
-                    display: flex;
-                    justify-content: space-between;
-                    margin-top: 20px;
-                    /* background-color: aqua; */
-                    /* padding-top: 17px; */
-                    /* line-height: 4; */
-                }
-                
-                .section-3 .first ol .use {
-                    font-size: 12px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    margin-top: 12px;
-                }
-                
-                .section-3 .first ol .code {
-                    font-size: 14px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    background-color: yellow;
-                    padding: 10px 20px 10px 20px;
-                    border: 1px dashed black;
-                    color: #0e3051;
-                    font-weight: bolder;
-                }
-                
-                .section-3 .middle ol .img-1 {
-                    margin-left: 150px;
-                }
-                
-                .section-3 .middle ol .img-2 {
-                    margin-left: 150px;
-                }
-                
-                .divider {
-                    margin: 50px 0px 50px 300px;
-                }
-                
-                .section-4 .content h2 {
-                    color: #0e3051;
-                    font-family: 'Gotham Knights', sans-serif;
-                    text-align: center;
-                }
-                
-                .section-4 .content p {
-                    font-family: 'Gotham Knights', sans-serif;
-                    font-size: 14px;
-                    text-align: center;
-                    line-height: 3;
-                }
-                
-                .section-4 .content-flex ol {
-                    list-style: none;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin: 20px;
-                }
-                
-                .section-4 .content-flex ol li {
-                    font-size: 20px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    color: #0e3051;
-                    font-weight: bolder;
-                    text-transform: uppercase;
-                    margin: 20px;
-                    /* text-decoration: underline red; */
-                }
-                
-                .section-4 .content-flex ol .statstyle {
-                    /* padding-bottom: 17px; */
-                    border-bottom: 1px solid red;
-                }
-                
-                .carousel ol {
-                    display: flex;
-                    justify-content: space-evenly;
-                    list-style: none;
-                }
-                
-                .carousel ol li p {
-                    text-transform: uppercase;
-                    font-size: 15px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    color: #0e3051;
-                    position: absolute;
-                    bottom: 0;
-                    font-weight: bolder;
-                }
-                
-                .carousel {
-                    position: relative;
-                }
-                
-                .carousel ol .malibu {
-                    position: absolute;
-                    padding: 18px 20px 18px 20px;
-                    background-color: white;
-                    border-radius: 10px;
-                    /* right: 0px; */
-                    /* top: 350px; */
-                    margin: 20px 123px 20px 123px;
-                }
-                
-                .carousel ol .classy {
-                    position: absolute;
-                    padding: 18px 20px 18px 20px;
-                    background-color: white;
-                    border-radius: 10px;
-                    /* right: 0px; */
-                    /* top: 350px; */
-                    margin: 20px 123px 20px 123px;
-                }
-                
-                .carousel ol .resort {
-                    position: absolute;
-                    padding: 18px 20px 18px 20px;
-                    background-color: white;
-                    border-radius: 10px;
-                    /* right: 0px; */
-                    /* top: 350px; */
-                    margin: 20px 123px 20px 123px;
-                }
-                
-                .section-5 h1 {
-                    color: yellow;
-                    font-family: 'Gotham Knights', sans-serif;
-                    text-align: center;
-                    padding: 50px 0px 20px 0px;
-                }
-                
-                .section-5 .flex-content ol {
-                    list-style: none;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin: 20px;
-                }
-                
-                .section-5 .flex-content ol li {
-                    text-transform: uppercase;
-                    font-family: 'Gotham Knights', sans-serif;
-                    font-weight: bolder;
-                    color: white;
-                    margin: 20px;
-                }
-                
-                .section-5 .flex-img ol {
-                    list-style: none;
-                    display: flex;
-                    justify-content: space-evenly;
-                }
-                
-                .section-5 {
-                    background-color: #0e3051;
-                    margin-top: 50px;
-                    padding-bottom: 15px;
-                }
-                
-                .section-5 .flex-content .all {
-                    border-bottom: 2px solid yellow;
-                }
-                
-                .section-5 .flex-img ol li img {
-                    width: 294px;
-                    height: 441.7px;
-                }
-                
-                .section-5 .flex-img ol .shirt1 span {
-                    background-color: rgb(28, 161, 206);
-                    color: white;
-                    font-family: 'Gotham Knights', sans-serif;
-                    padding: 5px 8px 5px 8px;
-                    position: absolute;
-                    left: 0;
-                    font-weight: bolder;
-                }
-                
-                .section-5 .flex-img ol li {
-                    position: relative;
-                }
-                
-                .section-5 .flex-img ol li i {
-                    position: absolute;
-                    right: 0;
-                    font-size: 20px;
-                    color: wheat;
-                    cursor: pointer;
-                }
-                /* .section-5 .flex-img ol .pants i {
+    
+    .banner img {
+        width: 100vw;
+        z-index: -1;
+    }
+    
+    .middle ol {
+        list-style: none;
+    }
+    
+    .truck ol {
+        list-style: none;
+    }
+    
+    .banner {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .pic ol {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    
+    .pic ol li p {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Gotham Knights', sans-serif;
+        font-size: 18px;
+        line-height: 2;
+        color: #0e3051;
+        font-weight: bolder;
+    }
+    
+    .pic {
+        margin-top: 30px;
+    }
+    
+    .section-3 .middle ol .img-1 img {
+        height: 145px;
+        width: 145px;
+    }
+    
+    .section-3 .middle ol .img-2 img {
+        height: 207px;
+        width: 414px;
+    }
+    
+    .section-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(249, 231, 159);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section-3 .first ol {
+        list-style: none;
+    }
+    
+    .section-3 .first ol li h2 {
+        color: #0e3051;
+        font-family: 'Gotham Knights', sans-serif;
+        font-size: 28px;
+        width: 490px;
+        margin-top: 24px;
+        margin-bottom: 3px;
+    }
+    
+    .section-3 .first ol .flat {
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+        line-height: 3;
+    }
+    
+    .section-3 .middle ol li p {
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .section-3 .first ol .next {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        /* background-color: aqua; */
+        /* padding-top: 17px; */
+        /* line-height: 4; */
+    }
+    
+    .section-3 .first ol .use {
+        font-size: 12px;
+        font-family: 'Gotham Knights', sans-serif;
+        margin-top: 12px;
+    }
+    
+    .section-3 .first ol .code {
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+        background-color: yellow;
+        padding: 10px 20px 10px 20px;
+        border: 1px dashed black;
+        color: #0e3051;
+        font-weight: bolder;
+    }
+    
+    .section-3 .middle ol .img-1 {
+        margin-left: 150px;
+    }
+    
+    .section-3 .middle ol .img-2 {
+        margin-left: 150px;
+    }
+    
+    .divide {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-4 .content h2 {
+        color: #0e3051;
+        font-family: 'Gotham Knights', sans-serif;
+        text-align: center;
+    }
+    
+    .section-4 .content p {
+        font-family: 'Gotham Knights', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        line-height: 3;
+    }
+    
+    .section-4 .content-flex ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    
+    .section-4 .content-flex ol li {
+        font-size: 20px;
+        font-family: 'Gotham Knights', sans-serif;
+        color: #0e3051;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin: 20px;
+        /* text-decoration: underline red; */
+    }
+    
+    .section-4 .content-flex ol .statstyle {
+        /* padding-bottom: 17px; */
+        border-bottom: 1px solid red;
+    }
+    
+    .carousel ol {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    
+    .carousel ol li p {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: 'Gotham Knights', sans-serif;
+        color: #0e3051;
+        position: absolute;
+        bottom: 0;
+        font-weight: bolder;
+    }
+    
+    .carousel {
+        position: relative;
+    }
+    
+    .carousel ol .malibu {
+        position: absolute;
+        padding: 18px 20px 18px 20px;
+        background-color: white;
+        border-radius: 10px;
+        /* right: 0px; */
+        /* top: 350px; */
+        margin: 20px 123px 20px 123px;
+    }
+    
+    .carousel ol .classy {
+        position: absolute;
+        padding: 18px 20px 18px 20px;
+        background-color: white;
+        border-radius: 10px;
+        /* right: 0px; */
+        /* top: 350px; */
+        margin: 20px 123px 20px 123px;
+    }
+    
+    .carousel ol .resort {
+        position: absolute;
+        padding: 18px 20px 18px 20px;
+        background-color: white;
+        border-radius: 10px;
+        /* right: 0px; */
+        /* top: 350px; */
+        margin: 20px 123px 20px 123px;
+    }
+    
+    .section-5 h1 {
+        color: yellow;
+        font-family: 'Gotham Knights', sans-serif;
+        text-align: center;
+        padding: 50px 0px 20px 0px;
+    }
+    
+    .section-5 .flex-content ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    
+    .section-5 .flex-content ol li {
+        text-transform: uppercase;
+        font-family: 'Gotham Knights', sans-serif;
+        font-weight: bolder;
+        color: white;
+        margin: 20px;
+    }
+    
+    .section-5 .flex-img ol {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .section-5 {
+        background-color: #0e3051;
+        margin-top: 50px;
+        padding-bottom: 15px;
+    }
+    
+    .section-5 .flex-content .all {
+        border-bottom: 2px solid yellow;
+    }
+    
+    .section-5 .flex-img ol li img {
+        width: 294px;
+        height: 441.7px;
+    }
+    
+    .section-5 .flex-img ol .shirt1 span {
+        background-color: rgb(28, 161, 206);
+        color: white;
+        font-family: 'Gotham Knights', sans-serif;
+        padding: 5px 8px 5px 8px;
+        position: absolute;
+        left: 0;
+        font-weight: bolder;
+    }
+    
+    .section-5 .flex-img ol li {
+        position: relative;
+    }
+    
+    .section-5 .flex-img ol li i {
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+        color: wheat;
+        cursor: pointer;
+    }
+    /* .section-5 .flex-img ol .pants i {
                 position: absolute;
                 top: 0;
             }
@@ -558,312 +560,685 @@
                 position: absolute;
                 right: 0;
             } */
-                
-                .section-5 .flex-img ol li .details ol {
-                    display: block;
-                }
-                
-                .section-5 .flex-img ol li .details ol .name {
-                    font-size: 14px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    color: white;
-                    line-height: 2;
-                }
-                
-                .section-5 .flex-img ol li .details ol .des {
-                    font-size: 20px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    color: white;
-                    line-height: 2;
-                }
-                
-                .section-5 .flex-img ol .shirt2 .details ol .name {
-                    font-size: 14px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    color: white;
-                    line-height: 2;
-                }
-                
-                .section-5 .flex-img ol li .details3 ol .des {
-                    font-size: 20px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    color: white;
-                    line-height: 2;
-                }
-                
-                .section-5 .flex-img ol li .details3 ol {
-                    display: block;
-                }
-                /* .section-5 .flex-img ol li .details ol li .specify-color {} */
-                /*                 
+    
+    .section-5 .flex-img ol li .details ol {
+        display: block;
+    }
+    
+    .section-5 .flex-img ol li .details ol .name {
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+        color: white;
+        line-height: 2;
+    }
+    
+    .section-5 .flex-img ol li .details ol .des {
+        font-size: 20px;
+        font-family: 'Gotham Knights', sans-serif;
+        color: white;
+        line-height: 2;
+    }
+    
+    .section-5 .flex-img ol .shirt2 .details ol .name {
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+        color: white;
+        line-height: 2;
+    }
+    
+    .section-5 .flex-img ol li .details3 ol .des {
+        font-size: 20px;
+        font-family: 'Gotham Knights', sans-serif;
+        color: white;
+        line-height: 2;
+    }
+    
+    .section-5 .flex-img ol li .details3 ol {
+        display: block;
+    }
+    /* .section-5 .flex-img ol li .details ol li .specify-color {} */
+    /*                 
                 .section-6 .first-start {
                     margin: 40px;
                 } */
-                
-                .section-6 .flex-con .pics img,
-                .pics1 img {
-                    width: 254px;
-                    height: 341.7px;
-                }
-                
-                .section-6 {
-                    display: flex;
-                    justify-content: center;
-                    margin: 40px;
-                    padding: 20px 0px 20px 0px;
-                }
-                
-                .section-6 .flex-con {
-                    display: flex;
-                    margin: 0px 30px 0px 30px;
-                    justify-content: space-around;
-                    /* justify-content: end; */
-                    /* margin-left: 20px; */
-                }
-                
-                .section-6 .flex-con .one .pics .shirt5 {
-                    margin-left: 20px;
-                }
-                
-                .section-6 .flex-con ol .shirt6 {
-                    margin-left: 20px;
-                }
-                
-                .section-6 .box {
-                    background-color: #0e3051;
-                    /* position: relative; */
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                    margin-top: -5px;
-                }
-                
-                .section-6 .box ol li {
-                    color: white;
-                    font-family: 'Gotham Knights', sans-serif;
-                    font-weight: bolder;
-                    text-align: center;
-                }
-                
-                .section-6 .box ol li img {
-                    left: 0;
-                }
-                
-                .section-6 .flex-con .pics,
-                .pics1 {
-                    position: relative;
-                }
-                
-                .section-6 .flex-con .pics span,
-                .pics1 span {
-                    background-color: rgb(28, 161, 206);
-                    color: white;
-                    font-family: 'Gotham Knights', sans-serif;
-                    padding: 5px 8px 5px 8px;
-                    position: absolute;
-                    left: 0;
-                    font-weight: bolder;
-                }
-                
-                .section-6 .flex-con .pics i,
-                .pics1 i {
-                    position: absolute;
-                    right: 0;
-                    font-size: 20px;
-                    color: wheat;
-                    cursor: pointer;
-                }
-                
-                .section-6 .flex-con .pics {
-                    display: block;
-                }
-                
-                .section-6 .flex-con .one,
-                .two {
-                    display: block;
-                }
-                
-                .section-6 .flex-con .one,
-                .two {
-                    margin-left: 30px;
-                }
-                
-                .section-6 .flex-con .one .contents .name,
-                .two .contents1 .name {
-                    color: grey;
-                    font-size: 14px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    line-height: 2;
-                }
-                
-                .section-6 .flex-con .one .contents .des,
-                .price,
-                .two .contents1 .des,
-                .price {
-                    color: black;
-                    font-size: 20px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    line-height: 2;
-                }
-                
-                .section-7 .pict ol {
-                    display: flex;
-                    justify-content: space-evenly;
-                }
-                
-                .section-7 .pict ol .small-logo img {
-                    height: 444px;
-                    width: 369px;
-                }
-                
-                .section-7 {
-                    margin: 0;
-                    padding: 0;
-                }
-                
-                .section-7 .pict ol .content {
-                    font-size: 20px;
-                    color: #0e3051;
-                    font-weight: bolder;
-                    font-family: 'Gotham Knights', sans-serif;
-                }
-                
-                .section-7 .pink {
-                    background-color: #ecafe5;
-                    padding: 40px 80px;
-                    width: 50%;
-                    align-content: center;
-                    text-align: center;
-                    align-items: center;
-                    border-radius: 8px;
-                    position: absolute;
-                    top: 30%;
-                    left: 30%;
-                }
-                
-                .section-7 {
-                    position: relative;
-                    padding: 20px 0px 20px 0px;
-                }
-                
-                .section-7 .pink button {
-                    height: 45px;
-                    border-radius: 8px;
-                    width: 40%;
-                    font-size: 16px;
-                    font-family: 'Gotham Knights', sans-serif;
-                    font-weight: bolder;
-                    line-height: 1;
-                    text-align: center;
-                    color: #0e3051;
-                    background-color: white;
-                    margin: 20px;
-                    border: none;
-                    /* display: grid; */
-                }
-                
-                .section-7 .pink .blocks {
-                    display: inline;
-                }
-                
-                .section-7 .pink h2 {
-                    color: white;
-                    font-weight: bolder;
-                    font-family: 'Gotham Knights', sans-serif;
-                    padding-bottom: 5px;
-                }
-                .section-7 .pict ol{
-                    list-style: none;
-                }
-
-                .section-8 h1{
-                    color: #04192e;
-                    text-align: center;
-                    font-family: 'Gotham Knights', sans-serif;
-
-                }
-
-                .section-8 .flex-pic ol li img{
-                    width: 378px;
-                    height: 379px;
-                    border-radius: 10px;
-                }
-
-                .section-8 .flex-pic ol{
-                    display: flex;
-                    justify-content: space-evenly;
-                    list-style: none;
-                    margin: 50px;
-                }
-                .section-8 .flex-pic ol li{
-                    position: relative;
-                }
-                .section-8 .flex-pic ol li i{
-                    position: absolute;
-                    top: 12px;
-                    right: 12px;
-                    background-color: white;
-                    padding: 15px;
-                    border-radius: 5px;
-                }
-            .section-8 .explore-all{
-                /* text-align: center; */
-                background-color: yellow;
-                padding: 10px;
-             width: 200px;
-             border-radius: 8px;
-              margin: 40px 0px 0px 850px;
-              cursor: pointer;
-                
-            }
-.section-8 .explore-all h3{
-    text-align: center;
-    font-family: 'Gotham Knights', sans-serif;
-    color: #04192e;
-
-
-}
-.section-9{
-    background: url(https://s7ap1.scene7.com/is/image/adityabirlafashion/as-image-bg_2x) no-repeat;
-    height: 439px;
-    /* width: 98vw; */
-    margin: 30px 0px 0px;
-    padding: 0;
-    background-size: cover;
-    position: relative;
-}
-.section-9 .signup{
-    position: absolute;
-    background-color: yellow;
-    width: 564px;
-    height: 334px;
-    border-radius: 10px;
-    right: 80px;
-    top: 50px;
-}
-.section-9 .signup .logo-name ol{
-    display: flex;
-    justify-content: center;
-}
-.section-9 .signup ol{
-    list-style: none;
-}
-
-.signup ol li p{
-    position: absolute;
-    font-size: 18px;
-    font-family: 'Gotham Knights', sans-serif;
-    color: #04192e;
-    font-weight: bolder;
-    top: 80px;
-    left: 130px;
-}
-
-.signup ol li img{
-    width: 50px;
-    height: 52px;
-    position: absolute;
-    top: 60px;
-    left: 80px;
-
-
-}
+    
+    .section-6 .flex-con .pics img,
+    .pics1 img {
+        width: 254px;
+        height: 341.7px;
+    }
+    
+    .section-6 {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .section-6 .flex-con {
+        display: flex;
+        margin: 0px 30px 0px 30px;
+        justify-content: space-around;
+        /* justify-content: end; */
+        /* margin-left: 20px; */
+    }
+    
+    .section-6 .flex-con .one .pics .shirt5 {
+        margin-left: 20px;
+    }
+    
+    .section-6 .flex-con ol .shirt6 {
+        margin-left: 20px;
+    }
+    
+    .section-6 .box {
+        background-color: #0e3051;
+        /* position: relative; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: -5px;
+    }
+    
+    .section-6 .box ol li {
+        color: white;
+        font-family: 'Gotham Knights', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .section-6 .box ol li img {
+        left: 0;
+    }
+    
+    .section-6 .flex-con .pics,
+    .pics1 {
+        position: relative;
+    }
+    
+    .section-6 .flex-con .pics span,
+    .pics1 span {
+        background-color: rgb(28, 161, 206);
+        color: white;
+        font-family: 'Gotham Knights', sans-serif;
+        padding: 5px 8px 5px 8px;
+        position: absolute;
+        left: 0;
+        font-weight: bolder;
+    }
+    
+    .section-6 .flex-con .pics i,
+    .pics1 i {
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+        color: wheat;
+        cursor: pointer;
+    }
+    
+    .section-6 .flex-con .pics {
+        display: block;
+    }
+    
+    .section-6 .flex-con .one,
+    .two {
+        display: block;
+    }
+    
+    .section-6 .flex-con .one,
+    .two {
+        margin-left: 30px;
+    }
+    
+    .section-6 .flex-con .one .contents .name,
+    .two .contents1 .name {
+        color: grey;
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+        line-height: 2;
+    }
+    
+    .section-6 .flex-con .one .contents .des,
+    .price,
+    .two .contents1 .des,
+    .price {
+        color: black;
+        font-size: 20px;
+        font-family: 'Gotham Knights', sans-serif;
+        line-height: 2;
+    }
+    
+    .section-7 .pict ol {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .section-7 .pict ol .small-logo img {
+        height: 444px;
+        width: 369px;
+    }
+    
+    .section-7 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .section-7 .pict ol .content {
+        font-size: 20px;
+        color: #0e3051;
+        font-weight: bolder;
+        font-family: 'Gotham Knights', sans-serif;
+    }
+    
+    .section-7 .pink {
+        background-color: #ecafe5;
+        padding: 40px 80px;
+        width: 50%;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 8px;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+    
+    .section-7 {
+        position: relative;
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .section-7 .pink button {
+        height: 45px;
+        border-radius: 8px;
+        width: 40%;
+        font-size: 16px;
+        font-family: 'Gotham Knights', sans-serif;
+        font-weight: bolder;
+        line-height: 1;
+        text-align: center;
+        color: #0e3051;
+        background-color: white;
+        margin: 20px;
+        border: none;
+        /* display: grid; */
+    }
+    
+    .section-7 .pink .blocks {
+        display: inline;
+    }
+    
+    .section-7 .pink h2 {
+        color: white;
+        font-weight: bolder;
+        font-family: 'Gotham Knights', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .section-7 .pict ol {
+        list-style: none;
+    }
+    
+    .section-8 h1 {
+        color: #04192e;
+        text-align: center;
+        font-family: 'Gotham Knights', sans-serif;
+    }
+    
+    .section-8 .flex-pic ol li img {
+        width: 310px;
+        height: 311px;
+        border-radius: 10px;
+    }
+    
+    .section-8 .flex-pic ol {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 50px;
+    }
+    
+    .section-8 .flex-pic ol li {
+        position: relative;
+    }
+    
+    .section-8 .flex-pic ol li i {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    .section-8 .explore-all {
+        height: 45px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .section-8 .explore-all h3 {
+        text-align: center;
+        background-color: #ffdf00;
+        width: 200px;
+        height: 64px;
+        color: #0e3051;
+        margin: 30px;
+        border-radius: 8px;
+        padding: 23px 20px 13px;
+        font-size: 20px;
+        font-family: 'Gotham Knights', sans-serif;
+    }
+    
+    .section-9 {
+        background: url(https://s7ap1.scene7.com/is/image/adityabirlafashion/as-image-bg_2x) no-repeat;
+        margin: 50px 0px 50px 0px;
+        width: 100vw;
+        height: 434px;
+        padding: 0;
+        /* background-size: cover; */
+        display: flex;
+        position: relative;
+    }
+    
+    .section-9 .signup {
+        position: absolute;
+        background-color: #ffdf00;
+        width: 564px;
+        height: 338px;
+        border-radius: 10px;
+        right: 80px;
+        top: 50px;
+    }
+    
+    .section-9 .signup .logo-name ol {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-9 .signup ol {
+        list-style: none;
+    }
+    
+    .signup ol li p {
+        position: absolute;
+        font-size: 18px;
+        font-family: 'Gotham Knights', sans-serif;
+        color: #0e3051;
+        font-weight: bolder;
+        top: 70px;
+        left: 130px;
+    }
+    
+    .signup ol li img {
+        width: 50px;
+        height: 52px;
+        position: absolute;
+        top: 50px;
+        left: 80px;
+    }
+    
+    .signup .points {
+        position: absolute;
+        top: 120px;
+        left: 80px;
+    }
+    
+    .signup .points h2,
+    p {
+        font-family: 'Gotham Knights', sans-serif;
+        color: #0e3051;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    
+    .signup .reg-quote p {
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+        font-weight: 400;
+        color: #333;
+    }
+    
+    .signup .reg-quote {
+        position: absolute;
+        bottom: 110px;
+        left: 80px;
+    }
+    
+    .signup .signup-now {
+        position: absolute;
+        bottom: 40px;
+        left: 170px;
+        background-color: #0e3051;
+        padding: 10px 60px 10px 60px;
+        border-radius: 8px;
+    }
+    
+    .signup .signup-now button {
+        color: #ffdf00;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: 'Gotham Knights', sans-serif;
+        background-color: transparent;
+    }
+    
+    .section-10 {
+        background-color: #0e3051;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .section-10 ol {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 11px 0px 0px 9px;
+    }
+    
+    .section-10 ol .point .refer {
+        color: #ffdf00;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Gotham Knights', sans-serif;
+    }
+    
+    .section-10 ol .point .with {
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 200;
+        font-family: 'Gotham Knights', sans-serif;
+        margin-left: 3px;
+    }
+    
+    .section-10 ol .btn {
+        background-color: #ffdf00;
+        padding: 14px 20px 13px;
+        border-radius: 5px;
+        margin-left: 80px;
+    }
+    
+    .section-10 ol .btn button {
+        color: #0e3051;
+        font-family: 'Gotham Knights', sans-serif;
+        border: none;
+        font-size: 14px;
+        background-color: transparent;
+        font-weight: bolder;
+    }
+    
+    .section-11 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffdf00;
+        height: 160px;
+    }
+    
+    .section-11 .first ol {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-11 .first .locate {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .section-11 .first .allen {
+        font-weight: 400;
+    }
+    
+    .section-11 .find-store ol {
+        /* display: flex; */
+        list-style: none;
+        margin-left: 15px;
+    }
+    
+    .section-11 .find-store ol .input input {
+        width: 350px;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: 'Gotham Knights', sans-serif;
+        margin-left: 3px;
+    }
+    
+    .section-11 .find-store ol li label {
+        font-family: 'Gotham Knights', sans-serif;
+        color: #0e3051;
+        font-size: 14px;
+        font-weight: bolder;
+        margin-left: 5px;
+    }
+    
+    .section-11 .show h4 {
+        font-family: 'Gotham Knights', sans-serif;
+        color: #0e3051;
+        border-bottom: 1px solid red;
+    }
+    
+    .section-11 .show {
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    
+    .section-12 {
+        height: 80px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .section-12 p {
+        text-align: center;
+        background-color: #0e3051;
+        width: 420px;
+        height: 80px;
+        color: white;
+        margin: 30px;
+        border-radius: 8px;
+        padding: 25px 20px 13px;
+        font-size: 20px;
+        font-family: 'Gotham Knights', sans-serif;
+    }
+    
+    .section-13 ol {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    
+    .section-13 ol li p {
+        font-size: 14px;
+    }
+    
+    .section-13 ol li img {
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    
+    .section-13 {
+        padding-bottom: 17px;
+    }
+    
+    .section-14 {
+        /* list-style: none; */
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
+        height: 368px;
+        /* border-bottom: 1px solid grey; */
+        margin-top: 50px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .section-14 ol {
+        list-style: none;
+        position: relative;
+    }
+    
+    .section-14 .frst ol {
+        position: absolute;
+        width: 219px;
+        height: 218px;
+        left: 110px;
+        display: block;
+    }
+    
+    .section-14 .mid ol {
+        position: absolute;
+        width: 219px;
+        height: 218px;
+        left: 400px;
+        display: block;
+    }
+    
+    .section-14 .las {
+        list-style: none;
+        position: absolute;
+        right: 0;
+    }
+    
+    .section-14 ol .las .updates {
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+    }
+    
+    .section-14 .frst,
+    .mid,
+    ol li a {
+        font-size: 14px;
+        font-family: 'Gotham Knights', sans-serif;
+        text-decoration: none;
+        color: #333;
+        line-height: 2;
+    }
+    
+    .section-14 .frst,
+    .mid,
+    ol li a:hover {
+        text-decoration: underline;
+    }
+    
+    .section-14 .frst,
+    .mid,
+    ol li h5 {
+        font-size: 16px;
+        font-family: 'Gotham Knights', sans-serif;
+    }
+    
+    .section-14 .las ol {
+        position: absolute;
+        /* top: 50px; */
+        display: block;
+        right: 105px;
+        /* background-color: yellow; */
+        width: 400px;
+        height: 30px;
+        /* line-height: 2; */
+    }
+    
+    .section-14 .las ol .community {
+        display: flex;
+    }
+    
+    .section-14 .las ol .community h5 {
+        padding: 3px;
+        margin-top: 8px;
+    }
+    
+    .section-14 .las ol li input {
+        padding-right: 250px;
+        padding-bottom: 10px;
+        border: none;
+        border-bottom: 2px solid black;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    .section-14 .las ol .enter {
+        display: flex;
+    }
+    
+    .section-14 .las ol .sign-con {
+        margin-top: 10px;
+        font-family: 'Gotham Knights', sans-serif;
+        font-size: 15px;
+    }
+    
+    .section-14 .las ol .social-media {
+        margin-top: 30px;
+        font-family: 'Gotham Knights', sans-serif;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .section-14 .las ol .social-media i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .section-15 {
+        margin-top: 20px;
+        font-family: 'Gotham Knights', sans-serif;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid grey;
+    }
+    
+    .section-15 .last-content {
+        position: relative;
+    }
+    
+    .section-15 .last-content i {
+        position: absolute;
+        right: 50px;
+    }
+    
+    .section-15 .last-content span {
+        position: absolute;
+        left: 50px;
+    }
+    
+    .section-16 {
+        /* margin-top: 10px; */
+        font-family: 'Gotham Knights', sans-serif;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .section-6 .last-content1 {
+        position: relative;
+    }
+    
+    .section-16 .last-content1 .privacy {
+        position: absolute;
+        left: 40px;
+        font-size: 14px;
+    }
+    
+    .section-16 .last-content1 .last-para {
+        position: absolute;
+        right: 30px;
+        font-size: 14px;
+    }
+    
+    .footer {
+        background-image: linear-gradient(90deg, #009c8f 0, #2b7bfc 17%, #0e3051 33%, #fa0783 51%, #c90c0c 66%, #f80 82%, #ffdf00);
+        height: 8px;
+    }

@@ -15,7 +15,12 @@
         justify-content: center;
         align-items: center;
     }
-    
+    header .end ol{
+        list-style: none;
+    }
+    header .start ol{
+        list-style: none;
+    }
     .start li img {
         height: 50px;
         width: 52px;
@@ -47,7 +52,7 @@
     }
     
     .end {
-        margin-left: 870px;
+        margin-left: 1170px;
     }
     
     .start ol {
@@ -336,6 +341,7 @@
         background-color: rgb(249, 231, 159);
         margin-top: 30px;
         margin-bottom: 30px;
+        flex-wrap: wrap;
     }
     
     .section-3 .first ol {
@@ -398,6 +404,7 @@
     .divide {
         display: flex;
         justify-content: center;
+        padding-bottom: 50px;
     }
     
     .section-4 .content h2 {
@@ -416,6 +423,7 @@
     .section-4 .content-flex ol {
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin: 20px;
@@ -838,7 +846,8 @@
         width: 100vw;
         height: 434px;
         padding: 0;
-        /* background-size: cover; */
+        margin: 0;
+        background-size: cover;
         display: flex;
         position: relative;
     }
@@ -1128,12 +1137,12 @@
         line-height: 2;
     }
     
-    .section-14 .frst,
+    /* .section-14 .frst,
     .mid,
     ol li a:hover {
         text-decoration: underline;
     }
-    
+     */
     .section-14 .frst,
     .mid,
     ol li h5 {
@@ -1242,3 +1251,21 @@
         background-image: linear-gradient(90deg, #009c8f 0, #2b7bfc 17%, #0e3051 33%, #fa0783 51%, #c90c0c 66%, #f80 82%, #ffdf00);
         height: 8px;
     }
+
+   .message{
+    font-size: 50px;
+    background-color: gold;
+    width: 60px;
+    border-radius: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+   }
+   .message i{
+    margin-left: 6px;
+   }
+   .message a i{
+    color: black;
+   }
+
+    

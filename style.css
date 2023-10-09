@@ -7,12 +7,25 @@
     box-sizing: border-box;
 }
 
-.scroll {
+marquee{
+    height: 30px;
+    background-color: rgb(7, 7, 104);
     display: flex;
-    background-color: blue;
+    justify-content: center;
+    align-items: center;
 }
 
-. header {
+marquee .marq{
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.scroll marquee .marq{
+    font-size: 12px;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     background-color: #333;
@@ -94,6 +107,7 @@ header .end ol .link {
 .header-2 .middle ol {
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 .header-2 .middle ol li a {
@@ -125,6 +139,7 @@ header .end ol .link {
 .header-2 .truck ol {
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 .header-2 .logo {
@@ -135,7 +150,7 @@ header .end ol .link {
     margin-right: 20px;
     background-color: gold;
     border-radius: 20px;
-    padding-right: 10px;
+    padding:10px 25px 10px 20px;
 }
 
 .header-2 .search input {
@@ -160,6 +175,9 @@ header .end ol .link {
 .banner {
     margin: 0;
     padding: 0;
+}
+.banner img{
+    width: 100vw;
 }
 
 .pic ol {
@@ -220,7 +238,12 @@ header .end ol .link {
     font-family: 'Gotham Knights', sans-serif;
     line-height: 3;
 }
-
+.section-3 .middle ol{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .section-3 .middle ol li p {
     font-size: 10px;
     text-align: center;
@@ -802,6 +825,8 @@ p {
     background-color: #0e3051;
     height: 100px;
     margin-bottom: 50px;
+    margin-top: 50px;
+
 }
 
 .section-10 ol {
@@ -1118,7 +1143,7 @@ ol li h5 {
     height: 8px;
 }
 
-.message {
+.message .msg i{
     font-size: 30px;
     background-color: black;
     width: 60px;
@@ -1143,6 +1168,3 @@ message a i {
     color: white;
 }
 
-color: white;
-
-}

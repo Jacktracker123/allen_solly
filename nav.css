@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    height: 55px;
+    flex-wrap: wrap;
+}
+
+header .start ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+header .end ol {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 17px;
+}
+
+header .start ol .brand {
+    padding-left: 60px;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+
+header .start ol .brand select {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+header .end ol li {
+    padding-right: 20px;
+}
+
+header ol li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.links:hover {
+    color: gold;
+}
+
+header .end ol li i {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+header .end ol .link1 i,
+.link2 i,
+.link3 i {
+    padding-right: 20px;
+}
+
+header .end ol .link {
+    border-right: 1px solid grey;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+}
+
+.header-2 .middle ol {
+    display: flex;
+    align-items: center;
+}
+
+.header-2 .middle ol li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-2 .middle ol .link1,
+.link2,
+.link3,
+.link4,
+.link5,
+.link6,
+.link7 {
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+    color: #02172b;
+}
+
+.header-2 .middle ol .link7 a {
+    color: red;
+}
+
+.header-2 .middle ol li .linkk:hover {
+    text-decoration: underline red;
+}
+
+.header-2 .truck ol {
+    display: flex;
+    align-items: center;
+}
+
+.header-2 .logo {
+    margin-left: 70px;
+}
+
+.header-2 .truck {
+    margin-right: 20px;
+    background-color: gold;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+.header-2 .search input {
+    padding-right: 40px;
+    padding-left: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+
+.header-2 .search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    bottom: 4px;
+    left: 6px;
+}
